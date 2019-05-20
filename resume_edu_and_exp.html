@@ -19,17 +19,403 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- jQuery library -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet">
     <style type="text/css">/* Chart.js */
     @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style>
+  </head>
+  
+  <body class="brand-background">
+    <div class="container-fluid pl-0">
+          <header>
+            <div class="container-fluid">
+
+            <!-- Mobile Navigation Menu -->
+              <!-- The overlay -->
+            <div id="mobile-top-nav" class="mobile-overlay">
+              <!-- Button to close the overlay navigation -->
+              <a href="javascript:void(0)" class="closebtn mt-4 pt-4" onclick="closeNav()">&times;</a>
+              <!-- Overlay content -->
+              <div class="overlay-content mt-5 pt-5">
+                <br><br>
+                <a href="index.html">Home</a>
+                <a href="works_ux.html">Works</a>
+                <a href="resume_edu_and_exp.html">Resum&eacute;</a>
+                <a href="https://www.linkedin.com/in/winterskj"><i class="fa fa-linkedin"></i></a>
+                <a href="mailto:kj.winters@outlook.com?Subject=Winters%20Resumé" target="_top"><i class="fa fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+            <!-- End of Mobile Navigation Menu -->
+
+            <div class="container-fluid">
+              <div class="d-flex flex-column">
+                <!-- Nav Bar -->
+                <div>
+                  <nav class="navbar fixed-top navbar-expand-sm navbar-dark brand-color scrolling-navbar mb-0">
+
+                    <div class="col-sm-5 col-xl-4  col-lg-5 col-md-5 col-9">
+                      <span class="navbar-brand">
+                        <a href="index.html"><img src="images/KW3.png" class="img-responsive brand-thumbnail logo-size" alt="kw logo"></a>
+                          <span class="subhead name-size d-sm-none d-md-inline-block" style="color: white;">Kristy<span class="brand-color-text"><strong>Winters</strong></span>
+                          </span>
+                      </span>
+                    </div>
+
+                    <div class="d-block d-sm-none col-1 white-text pull-right hampad"> 
+                        <div class="row">
+                           <span class="hamburger" onClick="openNav()">
+                           <em class="fa fa-bars fa-2x"></em></span>
+                        </div>
+                        <div class="row hamburger_label">menu</div>
+                    </div>
+
+                    <div class="col-5 col-xl-8 col-sm-7">  
+                      <div class="collapse navbar-collapse pull-right subheading p-t-sm " id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-none pl-none">
+                          <li class="nav-item">
+                              <a class="nav-btn nav-link waves-effect waves-light" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-btn nav-link waves-effect waves-light" style="text-decoration: none" href="works_ux.html">Works<span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item active">
+                              <a class="nav-btn nav-link waves-effect waves-light nav-btn-active" href="resume_edu_and_exp.html">Resumé</a>
+                          </li>
+                        </ul>
+                        <ul class="navbar-nav nav-flex-icons">
+                          <li class="nav-item">
+                              <a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/winterskj"><i class="fa fa-linkedin"></i></a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link waves-effect waves-light" href="mailto:kj.winters@outlook.com?Subject=Winters%20Resumé" target="_top"><i class="fa fa-envelope"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div> 
+                  </nav>
+                </div>
+              <!-- End of Nav Bar -->
+
+
+              <!-- Top Navigation Menu -->
+              <!-- The overlay -->
+              <div id="mobile-top-nav" class="mobile-overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                  <br><br>
+                  <a href="index.html">Home</a>
+                  <a href="works_ux.html">Works</a>
+                  <a href="#">Resum&eacute;</a>
+                  <a href="https://www.linkedin.com/in/winterskj"><i class="fa fa-linkedin"></i></a>
+                  <a href="mailto:kj.winters@outlook.com?Subject=Winters%20Resumé" target="_top"><i class="fa fa-envelope"></i></a>
+                </div>
+              </div>
+
+              <div class="card mobiledash d-block d-sm-none d-md-none d-lg-none">
+                <ul class="list-group list-group-flush">
+                  <a href="#" style="text-decoration: none;"><li class="list-group-item sidenav-mobile sideactive">Education &amp; Experience</li></a>
+                  <a href="resume_certs.html" style="text-decoration: none;"><li class="list-group-item sidenav-mobile ">Certifications</li></a>
+                  <a href="resume_tech.html" style="text-decoration: none;"><li class="list-group-item sidenav-mobile">Tech Skills</li></a>
+                  <a href="resume_soft.html" style="text-decoration: none;"><li class="list-group-item sidenav-mobile">Soft Skills</li></a>
+                  <a href="docs/Winters_Resume_Web.pdf" style="text-decoration: none;"><li class="list-group-item sidenav-mobile">Printable Resumé</li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </header>
+
+          <main id="content" role="main">
+              <div class="d-flex flex-row mt-5 pt-4">
+                <!-- Sidenav -->
+                
+                <div class="ml-0 pl-0 pr-0 col-0 col-sm-4 col-md-4 col-lg-3 col-xl-2 d-flex flex-column justify-content-start ">
+                  <div class="d-none d-sm-block sidenav">
+                    <div class="pt-4 d-flex justify-content-center">
+                        <img class="img-circle mypic" alt="K. Winters Photo" src="images/K.Winters.jpg">
+                     </div>
+                    <div>
+                        <h3 class="text-light text-center pt-2 pb-4 pr-3">Kristy Winters</h3>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                      <div class="sidebar sideactive col-sm-12 col-md-10">
+                        <a href="#">Education &amp; Experience</a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                      <div class="sidebar col-sm-12 col-md-10 mt-4">
+                        <a href="resume_certs.html">Certifications</a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                      <div class="sidebar col-sm-12 col-md-10 mt-4">
+                        <a href="resume_tech.html">Tech Skills</a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                      <div class="sidebar col-sm-12 col-md-10 mt-4">
+                        <a href="resume_soft.html">Soft Skills</a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <div class="ghost-button col-sm-12 col-md-10 text-center">
+                          <a href="docs/Winters_Resume_Web.pdf" style="text-decoration: none;">Printable Resumé</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Certifications -->
+                <div class="d-flex flex-column mt-sm-2 flex-wrap pl-sm-2 col-12 col-lg-9 col-xl-10 col-md-8 col-sm-8">
+                  <h2 class="text-light ml-sm-4 mt-sm-5">Education &amp; Experience</h2>
+
+                  <div class="d-flex flex-row flex-wrap justify-content-around">
+                    <div class="d-none d-md-block col-xl-11 mx-0 px-0 ">
+                      <div class="d-flex flex-column col-md-12 col-xl-12">
+                        <div class="card">
+                          <div class="d-flex flex-row flex-wrap py-3">
+                            <div class="col-12 d-flex justify-content-center align-items-center">
+                              <img src="images/timeline_large.png" class="responsive hidden-xs hidden-sm" width="100%">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column col-12 col-xl-5 mt-md-5 col-lg-6 col-md-6 col-sm-11">
+                      <h4 class="text-light">Education</h4>
+                      <div class="card">
+                        <div class="d-flex flex-row flex-wrap py-2">
+                          <div class="col-xl-3 d-flex justify-content-center align-items-center col-lg-4 col-md-4 col-sm-3 col-3">
+                            <img src="images/wgu.jpg" width="80%" alt="wgu logo">                          
+                          </div>
+                          <div class="col-7 d-flex align-items-center col-xl-7 col-lg-6 col-md-6 col-sm-7">
+                            Bachelor of Science 
+                          </div>
+                          <div class="d-flex justify-content-center align-items-center col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                            <div id="wguBtn" role="button" onclick="wguDetails(); wguFunction()" class="brand-color-text fa-2x">
+                              <i id="wguIcon" class="fa fa-plus-circle"></i>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-xl-3 d-flex justify-content-center align-items-center col-sm-3 col-3">
+                            <img src="images/TSU.png" width="75%" alt="tsu logo">                          
+                          </div>
+                          <div class="col-7 d-flex align-items-center col-xl-7 col-lg-6 col-md-6 col-sm-7">
+                            Bachelor of Business Administration  
+                          </div>
+                          <div class="d-flex justify-content-center align-items-center col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                            <div id="tsuBtn" role="button" onclick="tsuDetails(); tsuFunction()" class="brand-color-text fa-2x">
+                            <i id="tsuIcon" class="fa fa-plus-circle"></i>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-xl-3 d-flex  justify-content-center align-items-center col-sm-3 col-3">
+                            <img src="images/central-texas-college-min.png" width="48%" alt="ctc logo">                          
+                          </div>
+                          <div class="col-7 d-flex align-items-center col-xl-7 col-lg-6 col-md-6 col-sm-7">
+                            Associate Degree 
+                          </div>
+                          <div class="d-flex justify-content-center align-items-center col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                            <div id="ctcBtn" role="button" onclick="ctcDetails(); ctcFunction()" class="brand-color-text fa-2x">
+                            <i id="ctcIcon" class="fa fa-plus-circle"></i>
+                            </div>                          
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+
+                    <div class="d-flex flex-column col-12 col-xl-5 pt-4 pt-md-5 col-lg-6 col-md-6 col-sm-11">
+                      <h4 class="text-light">Experience</h4>
+                      <div class="card">
+                        <div class="d-flex flex-row flex-wrap py-4">
+                          <div class="d-flex justify-content-start align-items-center col-xl-10 col-lg-10 col-md-8 col-sm-10 col-10">
+                            UX Designer                          
+                          </div>
+                          <div class="col-md-4 d-flex justify-content-center align-items-center col-xl-2 col-lg-2 col-sm-2 col-2">
+                            <div id="UxBtn" role="button" onclick="UxDetails(); UxFunction()" class="brand-color-text fa-2x">
+                            <i id="UxIcon" class="fa fa-plus-circle py-2"></i>
+                            </div>
+                          </div>
+                          <div class="d-flex justify-content-start align-items-center col-xl-10 col-lg-10 col-md-8 col-sm-10 col-10">
+                            BITS Applications Developer 2                         
+                          </div>
+                          <div class="col-md-4 d-flex justify-content-center align-items-center col-xl-2 col-lg-2 col-sm-2 col-2">
+                            <div id="dev2Btn" role="button" onclick="dev2Details(); dev2Function()" class="brand-color-text fa-2x">
+                                <i id="dev2Icon" class="fa fa-plus-circle py-2"></i>
+                            </div>
+                          </div>
+                          <div class="d-flex justify-content-start align-items-center col-xl-10 col-lg-10 col-md-8 col-sm-10 col-10">
+                            BITS Applications Developer 1                          
+                          </div>
+                          <div class="col-md-4 d-flex justify-content-center align-items-center col-xl-2 col-lg-2 col-sm-2 col-2">
+                             <div id="dev1Btn" role="button" onclick="dev1Details(); dev1Function()" class="brand-color-text fa-2x">
+                              <i id="dev1Icon" class="fa fa-plus-circle py-2"></i>
+                             </div>
+                          </div>
+                          <div class="d-flex justify-content-start align-items-center col-xl-10 col-lg-10 col-md-8 col-sm-10 col-10">
+                            IT Design &amp; Analysis Fall Intern                         
+                          </div>
+                          <div class="col-md-4 d-flex justify-content-center align-items-center col-xl-2 col-lg-2 col-sm-2 col-2">
+                            <div id="fallBtn" role="button" onclick="fallDetails(); fallFunction()" class="brand-color-text fa-2x">
+                                <i id="fallIcon" class="fa fa-plus-circle py-2"></i>
+                            </div>
+                          </div>
+                          <div class="d-flex justify-content-start align-items-center col-xl-10 col-lg-10 col-md-8 col-sm-10 col-10">
+                            IT Design &amp; Analysis Summer Intern                        
+                          </div>
+                          <div class="col-md-4 d-flex justify-content-center align-items-center col-xl-2 col-lg-2 col-sm-2 col-2">
+                            <div id="summerBtn" role="button" onclick="summerDetails(); summerFunction()" class="brand-color-text fa-2x">
+                              <i id="summerIcon" class="fa fa-plus-circle py-2"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    
+                    <div class="d-flex flex-column col-lg-12 col-xl-11 mb-5 pb-5 col-sm-11">
+                      <h4 class="text-light">Details</h4>
+                      <div class="card">
+                        <div class="d-flex flex-row flex-wrap py-3">
+                          <div class="col-12">
+                            <div class="view-header" id="wguDetails" style="display:none"> 
+                              <p><span class="brand-color-text">WGU</span><br> 
+                              Bachelor of Science | Information Technology: Software Emphasis<br>
+                              Western Governors University | 12/2016 
+                              </p>
+                              <br>
+                            </div>
+
+                            <div class="view-header" id="tsuDetails" style="display:none"> 
+                              <p><span class="brand-color-text">TSU</span><br>
+                              Bachelor of Business Administration | Marketing | Minor: Criminal Justice<br>
+                              Tarleton State University | 5/2005 | Magna Cum Laude, 3.83 GPA
+                              </p>
+                              <br>
+                            </div>
+
+                            <div class="view-header" id="ctcDetails" style="display:none">
+                              <p><span class="brand-color-text">CTC</span><br>
+                                Associate Degree in General Studies<br>
+                                Central Texas College | 5/2002 | Graduated with Honors, cumulative GPA 3.7
+                              </p>
+                              <br>
+                            </div>
+
+                            <div class="view-header" id="UxDetails" style="display:none"> 
+                              <p><span class="brand-color-text">UX Designer</span><br>
+                                Electric Reliability Council of Texas | Taylor, TX | 09/12/2017 – Present<br>
+                                <ul>
+                                  <li>Application Development, Web Development, Mobile Design, Responsive Design, Interaction Design, Visual &amp; Graphic Design</li>
+                                  <li>Creates initial development of products (user interfaces, UIs): designs user interaction, wireframes, and low &amp; high-fidelity prototypes via UXPin, Visio, html, JavaScript, CSS, &amp; SCSS.</li>
+                                  <li>Conducts user interviews, UX research, UX analyses, and usability testing. Documents and defines information architecture.</li>
+                                  <li>Leads Design Review Sessions with key stakeholders.</li>
+                                  <li>Code creation, revision, and review. Resolution of code defects and code conflicts. Create project repositories.</li>
+                                  <li>Create components for and maintain corporate design system.</li>
+                                  <li>Manual test script writing in Quality Center and performance of manual testing.</li>
+                                  <li>Process Automation Project: While working on an Agile team, directed the work of others, and designed and coded forms, invoices, delete/confirmation modals, welcome screens, menus, navigation, mobile nav and alternate mobile layouts, search filter tool, email design, graphic design of application icons, and copyedited user guide.</li>
+                                </ul>
+                              </p>
+                              <br>
+                            </div>
+
+                            <div class="view-header" id="dev2Details" style="display:none"> 
+                              <p><span class="brand-color-text">BITS Applications Developer 2 </span><br>
+                              ERCOT | Taylor, TX | 06/01/2017 – 09/12/2017<br>
+                                <ul>
+                                  <li>Release &amp; Control: Created a PowerShell script packaged in a batch file to ping assets on the Asset Inventory List. Created an SQL query to merge 5 databases into one searchable database.</li>
+                                  <li>Designed new Confluence Wiki site for the QA &mp; Test department with JIRA integration and a focus on departmental collaboration and product/service delivery communication to internal customers.</li>
+                                  <li>Created a Work Estimate Calculator and form templates. </li>
+                                  <li>Created a graphic describing QA and Test “Products and Services” to be used online and in print. </li>
+                                  <li>In Splunk, updated Queries Containing Error Messages of Deprecated code: Decoded URLs, Updated Queries to Standard SQL Formatting. Applied Conditional Formatting via GUI and XML Source Code.</li>
+                                  <li>Created Visio Diagrams of Complex System Processes for the Retail Components: NAESB, PaperFree, TIBCO-Retail, and SIEBEL.</li>
+                                  <li>Used COGNOS and Workday to update data table owners</li>
+                                </ul>
+                              </p>
+                              <br>
+                            </div>
+
+                            <div class="view-header" id="dev1Details" style="display:none"> 
+                              <p><span class="brand-color-text">BITS Applications Developer 1 </span><br>
+                                  ERCOT | Taylor, TX | 01/16/2017 – 06/01/2017<br>
+                                <ul>
+                                  <li>Building Information Technology Staff, Rotational Program</li>
+                                  <li>Commercial Application Services: Assisted on Credit Monitoring and Management Project; Java validation on the user interface.</li>
+                                  <li>Identity &amp; Access Management: Completed a process improvement database design project to analyze if assets have been properly decommissioned, assisting Role &amp; Entitlement Clean Up.</li>
+                                  <li>Cyber Security: Deployed a Security Training and Awareness Phishing Exercise and created a security awareness message for print and Corporate CCTV (Today in ERCOT TV); Conducted a Cyber Security Analysis; Performed a Threat Intel Recon and discovered breached user accounts; Completed a Threat Intelligence Gathering Report.</li>
+                                </ul>
+                              </p>
+                              <br>
+                            </div>
+
+                            <div class="view-header" id="fallDetails" style="display:none">
+                               <p><span class="brand-color-text">IT Design &amp; Analysis Fall Intern </span><br>
+                                ERCOT | Taylor, TX | 08/22/2016 – 12/16/2016<br>
+                                <ul>
+                                  <li>Utilized the skills of: requirements gathering and analysis, &amp; risk analysis and mitigation to restructure and redesign internal websites via SharePoint:  4 department sites, 1 divisional site, and the top level internal IT site.</li>
+                                  <li>Provided SharePoint support to end users.</li>
+                                  <li>Designed and created custom icons.</li>
+                                </ul>
+                              </p>
+                            <br>
+                            </div>
+
+                            <div class="view-header" id="summerDetails" style="display:none"> 
+                                <p><span class="brand-color-text">IT Design &amp; Analysis Summer Intern</span><br>
+                                  ERCOT | Taylor, TX | 05/24/2016 – 08/19/2016<br>
+                                  <ul>
+                                    <li>Restructured and Redesigned the Identity &amp; Access Management SharePoint site: Analyzed content for duplication and redundancy; Merged existing IAM SharePoint sites; Redesigned homepage; Added live dashboards; Restructured SharePoint taxonomy; Initiated retirement of outdated SharePoint sites.</li>
+                                    <li>Streamlined the Annual IdM (Identity Management) Role Recertification Reporting Process for security and ease of use: Created a SharePoint library to present individualized spreadsheets to entitlement owners with managed permissions for security. Updated process document in department’s SOP and created End User instructions. Addressed End User issues arising in the deployment of the recertification process.</li>
+                                    <li>Assisted in onboarding of contractors &amp; employees: Created tickets in Remedy to initiate the creation of user electronic identities and their access permissions.  Ensured that access privileges were authenticated, authorized, and audited. Managed user accounts and group roles in Active Directory: Modified accounts based on entitlement changes and deletions.
+                                    </li>
+                                  </ul>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    
+                  </div>               
+                </div> 
+              </div>
+          </main>
+          
+          <footer>
+            <div class="d-flex align-item-end">
+              <!-- Copyright -->
+              <div class="d-flex flex-column">
+                <span class="footer-copyright text-center">© 2018 Copyright: K. Winters</span>
+              </div>
+            </div>
+          </footer>
+        </div>
+<!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/js/mdb.min.js">
+  </script>
+  
+  <script>
+  $(document).ready(function(){
+      $('.animated-icon1,.animated-icon3,.animated-icon4').click(function(){
+          $(this).toggleClass('open');
+      });
+  });                           
+  </script>
    
-    <script>
+  <script>
       function wguFunction() {
         var x = document.getElementById("wguDetails");
         if (x.style.display === "none") {
@@ -121,7 +507,7 @@
       }  
     </script>
 
-    <script>
+  <script>
        function wguDetails() {
           var icon = document.getElementById("wguIcon");
             if (icon.classList.contains("fa-plus-circle")) {
@@ -222,10 +608,8 @@
              icon.classList.add("fa-plus-circle");
           }
        }
-      
     </script>
-    
-    <script>
+  <script>
       function openNav() {
       //    document.getElementById("mobile-top-nav").style.width = "100%";
       //     document.getElementById("mobile-overlay").style.display = "block";
@@ -240,326 +624,5 @@
 
       }
     </script>
-    
-  </head>
-  
-  <body class="brand-background" style="margin-top: 85px;">
-    <header>
-      <div class="container">
-        <div class="row">
-            <nav class="navbar fixed-top navbar-expand-sm navbar-dark brand-color scrolling-navbar m-b-none">
-              <div class="col-lg-6 col-sm-6 col-xs-9 col-md-5">
-                <span class="navbar-brand">
-                  <a href="index.html"><img src="images/KW3.png" class="img-responsive brand-thumbnail logo-size" alt="kw logo"></a>
-                    <span class="subhead name-size" style="color: white;">Kristy<span class="brand-color-text"><strong>Winters</strong></span></span>
-                </span>
-              </div>
-        <!--
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        -->
-              <div class="visible-xs col-sm-1 white-text col-xs-offset-3 col-sm-offset-5 col-xs-1 pull-right col-xs-offset-0 hampad"> 
-                <div class="row">
-                   <span class="hamburger" onClick="openNav()">
-                   <em class="fa fa-bars fa-2x"></em></span>
-                </div>
-                <div class="row hamburger_label">menu</div>
-          </div>
-
-             <div class="col-5">  
-              <div class="collapse navbar-collapse pull-right subheading p-t-sm " id="navbarSupportedContent">
-                <ul class="navbar-nav m-l-none p-l-n">
-                  <li class="nav-item">
-                      <a class="nav-btn nav-link waves-effect waves-light"  style="text-decoration: none" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-btn nav-link waves-effect waves-light" style="text-decoration: none" href="works_ux.html">Works</a>
-                  </li>
-                  <li class="nav-item active">
-                      <a class="nav-btn nav-link waves-effect waves-light nav-btn-active" href="resume_edu_and_exp.html">Resumé<span class="sr-only">(current)</span></a>
-                  </li>
-                </ul>
-                <ul class="navbar-nav nav-flex-icons">
-                  <li class="nav-item">
-                      <a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/winterskj"><i class="fa fa-linkedin"></i></a>
-                  </li>
-
-                  <li class="nav-item">
-                      <a class="nav-link waves-effect waves-light" href="mailto:kj.winters@outlook.com?Subject=Winters%20Resumé" target="_top"><i class="fa fa-envelope"></i></a>
-                  </li>
-                </ul>
-              </div>
-              </div> 
-            </nav>
-     <div>
-       
-             <!-- Top Navigation Menu -->
-      <!-- The overlay -->
-      <div id="mobile-top-nav" class="mobile-overlay">
-
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <br><br>
-          <a href="index.html">Home</a>
-          <a href="works_ux.html">Works</a>
-          <a href="#">Resum&eacute;</a>
-          <a href="https://www.linkedin.com/in/winterskj"><i class="fa fa-linkedin"></i></a>
-          <a href="mailto:kj.winters@outlook.com?Subject=Winters%20Resumé" target="_top"><i class="fa fa-envelope"></i></a>
-        </div>
-
-      </div>
-       
-      <div class="card mobiledash" style="margin-top: 0;">
-        <ul class="list-group list-group-flush">
-          <a href="resume_e_and_e.html" style="text-decoration: none;"><li class="list-group-item sidenav-mobile sideactive">Education &amp; Experience</li></a>
-          <a href="resume_certs.html" style="text-decoration: none;"><li class="list-group-item sidenav-mobile">Certifications</li></a>
-          <a href="resume_tech.html" style="text-decoration: none;"><li class="list-group-item sidenav-mobile">Tech Skills</li></a>
-          <a href="resume_soft.html" style="text-decoration: none;"><li class="list-group-item sidenav-mobile">Soft Skills</li></a>
-          <a href="docs/Winters_Resume_Web.pdf" style="text-decoration: none;"><li class="list-group-item sidenav-mobile">Printable Resumé</li></a>
-        </ul>
-      </div>
-     </div>
-        </div>
-      </div>
-    </header>
-    <main id="content" role="main">
-        <div class="container-fluid p-l-n">
-          <div class="row">
-    <!-- Sidenav -->
-            <div class="sidenav col-lg-2 col-md-2 col-sm-2 hidden-xs">
-                <div style="text-align: center; margin-bottom: 40px;">
-                  <img class="img-circle mypic" alt="K. Winters Photo" src="images/K.Winters.jpg" ;="">
-                  <h2 class="white-text"><span style="font-weight: 600;">Kristy Winters</span></h2>
-                </div>
-                <div class="sidebar sideactive col-md-9 col-md-offset-3 col-sm-9 col-sm-offset-3 col-lg-offset-2 col-lg-10">
-                  <a href="#">Education &amp; Experience</a>
-                </div>
-                <div class="sidebar m-t-md col-md-9 col-md-offset-3 col-sm-9 col-sm-offset-3 col-lg-offset-2 col-lg-10">
-                  <a href="resume_certs.html">Certifications</a>
-                </div>
-                <div class="sidebar m-t-md col-md-9 col-md-offset-3 col-sm-9 col-sm-offset-3 col-lg-offset-2 col-lg-10">
-                  <a href="resume_tech.html">Tech Skills</a>
-                </div>  
-                <div class="sidebar m-t-md col-md-9 col-md-offset-3 col-sm-offset-3 col-sm-9 col-lg-offset-2 col-lg-10">
-                  <a href="resume_soft.html">Soft Skills</a>
-                </div>
-                <div class="col-lg-9 p-l-n col-md-offset-3 col-sm-offset-3 col-lg-offset-2 col-md-9 col-sm-9">
-                  <div class="ghost-button">
-                    <a href="docs/Winters_Resume_Web.pdf" style="text-decoration: none;">Printable Resumé</a>
-                  </div>
-                </div>
-              </div> 
-            <div class="col-lg-9 col-md-8 col-sm-7" style="margin-bottom: 100px">
-              <div class="row">
-                <div class="white-text" style="margin-left: -15px">
-                  <h3 class="col-md-11 col-md-offset-1 col-sm-offset-1 col-sm-11 col-xs-10 col-xs-offset-1">Tech Skills</h3>
-                  <br>
-                </div>
-                  <div class="row">
-
-                    <div class="col-lg-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-sm-11 col-md-11 col-xs-10 col-xs-offset-1">
-                      <img src="images/timeline_large.png" class="responsive hidden-xs hidden-sm" width="100%">
-                    </div>
-
-                                    
-                    <div class="col-lg-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-sm-11 col-md-11 col-xs-10 col-xs-offset-1">
-                    <h4><font color="#ffffff">Education</font></h4>
-                    <div class="panel panel-default">
-                      <div class="panel-body">
-                        <p><span style="margin-left: 0; margin-right: 5px"><img src="images/wgu.jpg" width="75px" alt="wgu logo"> </span>Bachelor of Science 
-                            <div id="wguBtn" role="button" onclick="wguDetails(); wguFunction()" class="brand-color-text fa-pull-right fa-2x" style="margin-top: -75px;">
-                                <i id="wguIcon" class="fa fa-plus-circle"></i>
-                            </div>
-                        </p>
-                        <p><span style="margin-left: 0; margin-right: 20px"><img src="images/TSU.png" width="65px" alt="tsu logo"></span>Bachelor of Business Administration 
-                           <div id="tsuBtn" role="button" onclick="tsuDetails(); tsuFunction()" class="brand-color-text fa-pull-right fa-2x" style="margin-top: -65px;">
-                            <i id="tsuIcon" class="fa fa-plus-circle"></i>
-                          </div>
-                        </p>
-                        
-                        <p><span style="margin-left: 10px; margin-right: 30px"><img src="images/central-texas-college-min.png" width="45px" alt="ctc logo"></span>Associate Degree     <div id="ctcBtn" role="button" onclick="ctcDetails(); ctcFunction()" class="brand-color-text fa-pull-right fa-2x" style="margin-top: -65px;">
-                            <i id="ctcIcon" class="fa fa-plus-circle"></i>
-                          </div>
-                        </p>
-                      </div>
-                    </div>
-                  </div> 
-            
-                  <div class="col-lg-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-sm-11 col-md-11 col-xs-10 col-xs-offset-1">
-                    <h4><font color="#ffffff">Experience</font></h4>
-                    <div class="panel panel-default">
-                      <div class="panel-body">
-                        <p>UX Designer&nbsp; 
-                          <div id="UxBtn" role="button" onclick="UxDetails(); UxFunction()" class="brand-color-text fa-pull-right fa-2x" style="margin-top: -40px;">
-                            <i id="UxIcon" class="fa fa-plus-circle"></i>
-                          </div>
-                        </p>
-                        
-                        <br>
-                        <p>BITS Applications Developer 2 
-                           <div id="dev2Btn" role="button" onclick="dev2Details(); dev2Function()" class="brand-color-text fa-pull-right fa-2x" style="margin-top: -40px;">
-                              <i id="dev2Icon" class="fa fa-plus-circle"></i>
-                           </div>
-                        </p>
-                        <br>
-                        <p>BITS Applications Developer 1 
-                           <div id="dev1Btn" role="button" onclick="dev1Details(); dev1Function()" class="brand-color-text fa-pull-right fa-2x" style="margin-top: -40px;">
-                              <i id="dev1Icon" class="fa fa-plus-circle"></i>
-                           </div>
-                        </p>
-                        <br>
-                        <p>IT Design &amp; Analysis Fall Intern 
-                           <div id="fallBtn" role="button" onclick="fallDetails(); fallFunction()" class="brand-color-text fa-pull-right fa-2x" style="margin-top: -40px;">
-                              <i id="fallIcon" class="fa fa-plus-circle"></i>
-                           </div>
-                        </p>
-                        <br>
-                        <p>IT Design &amp; Analysis Summer Intern 
-                           <div id="summerBtn" role="button" onclick="summerDetails(); summerFunction()" class="brand-color-text fa-pull-right fa-2x" style="margin-top: -40px;">
-                              <i id="summerIcon" class="fa fa-plus-circle"></i>
-                          </div>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div class="col-lg-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-sm-11 col-md-11 col-xs-10 col-xs-offset-1">
-                    <h4><font color="#ffffff">Details</font></h4>
-                    <div class="panel panel-default">
-                      <div class="panel-body">
-                        <div class="view-header" id="wguDetails" style="display:none"> 
-                          <p><span class="brand-color-text">WGU</span><br> 
-                          Bachelor of Science | Information Technology: Software Emphasis<br>
-                          Western Governors University | 12/2016 
-                          </p>
-                          <br>
-                        </div>
-                        
-                        <div class="view-header" id="tsuDetails" style="display:none"> 
-                          <p><span class="brand-color-text">TSU</span><br>
-                          Bachelor of Business Administration | Marketing | Minor: Criminal Justice<br>
-                          Tarleton State University | 5/2005 | Magna Cum Laude, 3.83 GPA
-                          </p>
-                          <br>
-                        </div>
-                        
-                        <div class="view-header" id="ctcDetails" style="display:none">
-                          <p><span class="brand-color-text">CTC</span><br>
-                            Associate Degree in General Studies<br>
-                            Central Texas College | 5/2002 | Graduated with Honors, cumulative GPA 3.7
-                          </p>
-                          <br>
-                        </div>
-
-                        <div class="view-header" id="UxDetails" style="display:none"> 
-                          <p><span class="brand-color-text">UX Designer</span><br>
-                            Electric Reliability Council of Texas | Taylor, TX | 09/12/2017 – Present<br>
-                            <ul>
-                              <li>Acts as liaison between technical and business groups to analyze and document UI business requirements, ensuring a complete work task flow and aiding in the strategic planning of the design direction.</li>
-                              <li>Designs user interfaces (UIs) and functionality, assisting in Front-End Development for internal and external application development projects.</li>
-                              <li>Application Development, Web Development, Mobile Design, Responsive Design, Interaction Design, Visual &amp; Graphic Design</li>
-                              <li>Designs wireframes and low &mp; high-fidelity prototypes via UXPin, Visio, html, JavaScript, CSS, SCSS, and JSP.</li>
-                              <li>Code creation, revision, and review. Resolution of code defects and code conflicts.</li>
-                              <li>Conduct UX research, UX analyses, and usability testing. Document and define information architecture.</li>
-                              <li>Manual test script writing in Quality Center and performance of manual testing.</li>
-                              <li>Process Automation Project: While working on an Agile team, directed the work of others, and designed and coded forms, invoices, delete/confirmation modals, welcome screens, menus, navigation, mobile nav and alternate mobile layouts, search filter tool, email design, graphic design of application icons, and copyedited user guide.</li>
-                            </ul>
-                          </p>
-                          <br>
-                        </div>
-
-                        <div class="view-header" id="dev2Details" style="display:none"> 
-                          <p><span class="brand-color-text">BITS Applications Developer 2 </span><br>
-                          ERCOT | Taylor, TX | 06/01/2017 – 09/12/2017<br>
-                            <ul>
-                              <li>Release &amp; Control: Created a PowerShell script packaged in a batch file to ping assets on the Asset Inventory List. Created an SQL query to merge 5 databases into one searchable database.</li>
-                              <li>Designed new Confluence Wiki site for the QA &mp; Test department with JIRA integration and a focus on departmental collaboration and product/service delivery communication to internal customers.</li>
-                              <li>Created a Work Estimate Calculator and form templates. </li>
-                              <li>Created a graphic describing QA and Test “Products and Services” to be used online and in print. </li>
-                              <li>In Splunk, updated Queries Containing Error Messages of Deprecated code: Decoded URLs, Updated Queries to Standard SQL Formatting. Applied Conditional Formatting via GUI and XML Source Code.</li>
-                              <li>Created Visio Diagrams of Complex System Processes for the Retail Components: NAESB, PaperFree, TIBCO-Retail, and SIEBEL.</li>
-                              <li>Used COGNOS and Workday to update data table owners</li>
-                            </ul>
-                          </p>
-                          <br>
-                        </div>
-
-                        <div class="view-header" id="dev1Details" style="display:none"> 
-                          <p><span class="brand-color-text">BITS Applications Developer 1 </span><br>
-                              ERCOT | Taylor, TX | 01/16/2017 – 06/01/2017<br>
-                            <ul>
-                              <li>Building Information Technology Staff, Rotational Program</li>
-                              <li>Commercial Application Services: Assisted on Credit Monitoring and Management Project; Java validation on the user interface.</li>
-                              <li>Identity &amp; Access Management: Completed a process improvement database design project to analyze if assets have been properly decommissioned, assisting Role &amp; Entitlement Clean Up.</li>
-                              <li>Cyber Security: Deployed a Security Training and Awareness Phishing Exercise and created a security awareness message for print and Corporate CCTV (Today in ERCOT TV); Conducted a Cyber Security Analysis; Performed a Threat Intel Recon and discovered breached user accounts; Completed a Threat Intelligence Gathering Report.</li>
-                            </ul>
-                          </p>
-                          <br>
-                        </div>
-                        
-                        <div class="view-header" id="fallDetails" style="display:none">
-                           <p><span class="brand-color-text">IT Design &amp; Analysis Fall Intern </span><br>
-                            ERCOT | Taylor, TX | 08/22/2016 – 12/16/2016<br>
-                            <ul>
-                              <li>Utilized the skills of: requirements gathering and analysis, &amp; risk analysis and mitigation to restructure and redesign internal websites via SharePoint:  4 department sites, 1 divisional site, and the top level internal IT site.</li>
-                              <li>Provided SharePoint support to end users.</li>
-                              <li>Designed and created custom icons.</li>
-                            </ul>
-                          </p>
-                        <br>
-                        </div>
-                        
-                        <div class="view-header" id="summerDetails" style="display:none"> 
-                            <p><span class="brand-color-text">IT Design &amp; Analysis Summer Intern</span><br>
-                              ERCOT | Taylor, TX | 05/24/2016 – 08/19/2016<br>
-                              <ul>
-                                <li>Restructured and Redesigned the Identity &amp; Access Management SharePoint site: Analyzed content for duplication and redundancy; Merged existing IAM SharePoint sites; Redesigned homepage; Added live dashboards; Restructured SharePoint taxonomy; Initiated retirement of outdated SharePoint sites.</li>
-                                <li>Streamlined the Annual IdM (Identity Management) Role Recertification Reporting Process for security and ease of use: Created a SharePoint library to present individualized spreadsheets to entitlement owners with managed permissions for security. Updated process document in department’s SOP and created End User instructions. Addressed End User issues arising in the deployment of the recertification process.</li>
-                                <li>Assisted in onboarding of contractors &amp; employees: Created tickets in Remedy to initiate the creation of user electronic identities and their access permissions.  Ensured that access privileges were authenticated, authorized, and audited. Managed user accounts and group roles in Active Directory: Modified accounts based on entitlement changes and deletions.
-                                </li>
-                              </ul>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                      
-                </div> 
-              </div>
-            </div>
-          </div>
-</div>
-          <footer>
-            <div class="container-fluid" style="margin-top: 100px;">
-              <div class="row">
-                <div class="col-lg-12 no-padding">
-                  <!-- Copyright -->
-                  <div class="footer-copyright text-center py-3">© 2018 Copyright: K. Winters</div>
-                </div>
-              </div>
-            </div>
-          </footer>
-      </main>
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/js/mdb.min.js"></script>
-
-  <script>
-  $(document).ready(function(){
-      $('.animated-icon1,.animated-icon3,.animated-icon4').click(function(){
-          $(this).toggleClass('open');
-      });
-  });                           
-  </script>
   </body>
 </html>
