@@ -2,7 +2,7 @@
   display: none;
   min-width: 311px;
 }
-
+navbar
 .desktop_only {
   display: none;
 }
@@ -13,7 +13,7 @@
 }
 
 .name-size {
-	 font-size:35px;mo
+	 font-size:35px;
 	 vertical-align: middle;
    padding-left: 15px;
 }
@@ -126,7 +126,8 @@
 
 
 .brand-color {
-  background-color: #2e302f;
+/*  background-color: #2e302f;*/
+  background-color: #EAEAEA;
 }
 
 .brand-color-text {
@@ -134,7 +135,7 @@
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+/*  color: #fff;*/
   text-decoration: none;
   background-color: #e91e63;
 }
@@ -145,12 +146,12 @@
 }
 
 .sidenav-mobile {
-  background: #899EA1;
-  color: white;
+/*  background: #899EA1;*/
+  background: #C4C1C1;
   text-decoration: none;
-  border: #2e302f;
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 60px;
+  color: black!important;
 }
 
 .sidenav-mobile:hover {
@@ -162,10 +163,14 @@
   text-decoration: none;
 }
 
+.sidenav-mobile a:active {
+  background-color: white;
+}
+
 .sidenav-mobile-active {
-  background-color: rgba(255,255,255,.1);
+  background-color: #784546;
   text-decoration: none;
-  color: white;
+  color: white !important;
 }
 
 .mobile-overlay {
@@ -173,19 +178,21 @@
   width: 100%;
   display: none;
   position: fixed;
-  z-index: 3;
-  top: 20;
+  z-index: 9;
+/*  top: 20;*/
   left: 0;
+  background-color: black;
+/*
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
+*/
 }
 
 .mobile-overlay-content {
   position: relative;
-  top: 25%;
+/*  top: 25%;*/
   width: 100%;
   text-align: center;
-  margin-top: 30px;
 }
 
 .mobile-overlay a {
@@ -222,12 +229,11 @@
 .hamburger_label {
   font-weight: 600;
   font-size: 12px;
-  color: white; }
+}
 
 .hamburger {
   cursor:pointer; 
   font-size: 18px; 
-  color: white;
 }
 
 
@@ -239,6 +245,7 @@
 }
 
 
+/*
 .ltr-gradient {
     background: -moz-linear-gradient(left,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 30%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%);
     background: -webkit-gradient(linear,left top,right top,color-stop(0%,rgba(0,0,0,0.65)),color-stop(30%,rgba(0,0,0,0.65)),color-stop(50%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0)));
@@ -248,6 +255,7 @@
     background: linear-gradient(to right,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 30%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000',endColorstr='#00000000',GradientType=1);
 }
+*/
 
 .jumbotron {
    padding-top: 0;
@@ -257,26 +265,26 @@
 }
 
 .jumbo-title {
-  font-size: 4.5vw;
-  color: white;
-  font-weight: 800;
+font-size: calc(16px + 3vw);
+  font-weight: 100;
 }
   
 .jumbo-text {
-  font-size: 3.5vw;
-  color: white;
-  font-weight: 300;
+font-size: calc(16px + 1vw);
+  font-weight: 100;
 }
 
 .brand-background {
    background-size: cover;
-   background-color: #143D43;   
+/*   background-color: #143D43;   */
+  background-color: #EAEAEA;
 }
 
 .brand-thumbnail {
     padding: .25rem;
     background-color: transparent;
     display: inline;
+    z-index: 0;
 }
 
 .navbar {
@@ -284,7 +292,8 @@
   top: 0;
   left: 0;
   border-radius: 0;
-  overflow: visible !important;;
+  overflow: visible !important;
+  background-color: #EAEAEA;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -303,7 +312,7 @@
 }
 
 .nav-btn{
-  color: white;
+  color: black;
   font-weight: normal;
   display: inline-block;
   text-align: center;
@@ -311,13 +320,15 @@
 }
 
 .nav-btn:hover {
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(102,65,66,0.10);
   text-decoration: none;
+  color: black;
 }
 
 .nav-btn-active {
-    background-color: rgba(255,255,255,.1);
+  background-color: rgba(255,255,255,.1);
   text-decoration: none;
+  color: #e91e63;
 }
 
 .no-margin {
@@ -377,7 +388,8 @@
   position: relative;
   z-index: 2;
   left: 0;
-  background: #899EA1;
+  background: #C4C1C1;
+/*  background: #899EA1;*/
   overflow: auto;
   display: inline-block;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,.75), 0 12px 28px 0 rgba(0,0,0,0.19); 
@@ -419,9 +431,8 @@
 }
 
 .ghost-button{
-  color: white;
-  background: #899EA1;
-  border: 1px solid white;
+  color: black;
+  border: 1px solid #2e302f;
   font-size: 17px;
   padding: 0 12px;
   font-weight: normal;
@@ -432,14 +443,18 @@
   border-radius: 15px;
 }
 
+.sidenav-mobile:hover, .sidenav-mobile:active {
+  color: black !important;
+}
+
 .ghost-button:hover, .ghost-button:active {
   border: 1px solid #2e302f;
+  background-color: rgba(102,65,66,0.10);
 }
 
 .footer-copyright {
-  background: #2e302f;
+  background: #EAEAEA;
   padding: 8px 0 8px 0;
-  color: white;
   width: 100%;
   bottom: 0;
   position: fixed;
@@ -458,16 +473,14 @@
 .mobiledash {
   display: block;
   height: 100%;
-  position: realtive;
+  position: relative;
   margin-top: 81px;
   z-index: 2;
-  background: #899EA1;
   overflow: auto;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,.75), 0 12px 28px 0 rgba(0,0,0,0.19); 
 }
 
 .mob-btn{
-  color: aqua;
   background: #2E302F;
   font-size: 17px;
   padding: 0 12px;
@@ -481,7 +494,6 @@
 
 .mob-btn:hover, .mobile-btn:active {
   background: white;
-  color: black;
 }
 
 .card-title {
@@ -509,7 +521,7 @@
   }
 
 .navbar {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+/*    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);*/
     font-weight: 300;
   }}
 
@@ -517,12 +529,7 @@
 .navbar {
     position: relative;
     min-height: 50px;
-}
-
-.navbar {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
-    font-weight: 300;
-  }}
+}}
 
 @media (min-width: 768px){
 .navbar-collapse.collapse {
@@ -561,7 +568,7 @@
 }
 
 .navbar {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+/*    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);*/
     font-weight: 300;
   }
 }
@@ -575,12 +582,12 @@
 }
 
 .navbar {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+/*    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);*/
     font-weight: 300;
 }
 
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-    color: #fff;
+    color: black;
     -webkit-transition: .35s;
     -o-transition: .35s;
     transition: .35s;
@@ -588,7 +595,6 @@
 .navbar .nav-item .nav-link {
     display: block;
   }
-}
 
 a.waves-effect, a.waves-light {
     display: inline-block;
@@ -620,7 +626,7 @@ a.waves-effect, a.waves-light {
 .navbar {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     font-weight: 300;
-  }}
+  }
 
 @media (min-width: 600px){
 .navbar.scrolling-navbar .navbar-nav>li {
@@ -649,7 +655,7 @@ a.waves-effect, a.waves-light {
 .divider-new, .navbar .nav-flex-icons {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-  }}
+  }
 
 @media (min-width: 768px){
 .navbar-nav {
