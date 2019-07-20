@@ -281,6 +281,25 @@ font-size: calc(16px + 1vw);
   background-color: #ffffff;
 }
 
+.front-page_bg-image {
+  background-image: url("../images/front_page_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+@media screen and (min-width: 1200px) {
+
+.front-page_bg-image {
+  background-image: url("../images/front_page_bg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+}
+
+
 .front-page_bg {
   background-color: white;
   height: 100%;
@@ -288,9 +307,9 @@ font-size: calc(16px + 1vw);
 
 @media screen and (min-width: 576px) {
   .front-page_bg {
-    background: -webkit-linear-gradient(right, #e91e63 45%, #ffffff 45%);
-    background: -o-linear-gradient(right, #e91e63 45%, #ffffff 45%);
-    background: linear-gradient(to left, #e91e63 45%, #ffffff 45%);
+    background: -webkit-linear-gradient(right, #e91e63 43%, #ffffff 43%);
+    background: -o-linear-gradient(right, #e91e63 43%, #ffffff 43%);
+    background: linear-gradient(to left, #e91e63 43%, #ffffff 43%);
   }
 }
 
@@ -304,17 +323,17 @@ font-size: calc(16px + 1vw);
 
 @media screen and (min-width: 992px) {
   .front-page_bg {
-    background: -webkit-linear-gradient(right, #e91e63 41%, #ffffff 41%);
-    background: -o-linear-gradient(right, #e91e63 41%, #ffffff 41%);
-    background: linear-gradient(to left, #e91e63 41%, #ffffff 41%);
+    background: -webkit-linear-gradient(right, #e91e63 43%, #ffffff 43%);
+    background: -o-linear-gradient(right, #e91e63 43%, #ffffff 43%);
+    background: linear-gradient(to left, #e91e63 43%, #ffffff 43%);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .front-page_bg {
-    background: -webkit-linear-gradient(right, #e91e63 40%, #ffffff 40%);
-    background: -o-linear-gradient(right, #e91e63 40%, #ffffff 40%);
-    background: linear-gradient(to left, #e91e63 40%, #ffffff 40%);
+    background: -webkit-linear-gradient(right, #e91e63 42%, #ffffff 42%);
+    background: -o-linear-gradient(right, #e91e63 42%, #ffffff 42%);
+    background: linear-gradient(to left, #e91e63 42%, #ffffff 42%);
   }
 }
   
