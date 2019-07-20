@@ -178,9 +178,9 @@ navbar
 	width: 55px;
 	height: 55px;
 	background: white;
-	border: 3px solid #888888;
+	border: 1px solid #888888;
 	transition: width 2s;
-	box-shadow: 2px -2px 5px #888888;
+	box-shadow: 2px 0px 5px #888888;
   text-align: center;
   overflow: hidden;
   border-top-right-radius: 0px;
@@ -193,21 +193,23 @@ navbar
 
 .mobile_tab_menu:first-of-type  {
 	border-top-right-radius: 15px;
+  box-shadow: 2px -2px 5px #888888;
 }
   
 .mobile_tab_menu:last-of-type  {
  	border-bottom-right-radius: 15px;
+  box-shadow: 2px 2px 5px #888888;
 }
-  
-.mobile_tab_menu:active {
+
+.mobile_tab_menu:hover {
 	width: 250px;
+  transition: all 500ms ease-in;
 }
   
 .old-text,
 .new-text {
   display: block;
   overflow: hidden;
-  transition: all 500ms ease;
 }
 .old-text {
   height: auto;
@@ -220,15 +222,15 @@ navbar
   opacity: 0;
   width: 0;
 }
-.mobile_tab_menu:active .old-text {
+.mobile_tab_menu:hover .old-text {
   height: 0px;
   opacity: 0;
   width: 0px;
 }
-.mobile_tab_menu:active .new-text {
+.mobile_tab_menu:hover .new-text {
   height: auto;
   opacity: 1;
-  width: auto;
+  width: 250px;
   margin-top: 5px;
 }
 
