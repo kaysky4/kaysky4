@@ -179,7 +179,7 @@ navbar
 .tab_menu {
 	width: 55px;
 	height: 55px;
-	background: white;
+	background:#E5CBCB;
 	border: 1px solid #888888;
 	transition: width 2s;
 	box-shadow: 2px 2px 5px #888888;
@@ -572,6 +572,10 @@ font-size: calc(16px + 1vw);
 
 .m-l-md {
   margin-left: 10px;
+}
+
+.m-t-xl {
+  margin-top: 80px;
 }
 
 .m-t-xxxl {
