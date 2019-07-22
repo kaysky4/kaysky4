@@ -818,3 +818,24 @@ a.waves-effect, a.waves-light {
   .border-left-xl-none {
     border-left: 0 !important; } 
 }
+
+/*Turn off bottom border at screen size*/
+@media screen and (min-width: 576px) {
+  .border-bottom-sm-none {
+    border-bottom: 0 !important; } 
+}
+
+@media screen and (min-width: 768px) {
+  .border-bottom-md-none {
+    border-bottom: 0 !important; } 
+}
+
+@media screen and (min-width: 992px) {
+  .border-bottom-lg-none {
+    border-bottom: 0 !important; } 
+}
+
+@media screen and (min-width: 1200px) {
+  .border-bottom-xl-none {
+    border-bottom: 0 !important; } 
+}
