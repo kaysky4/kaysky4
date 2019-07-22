@@ -372,7 +372,7 @@ font-size: calc(16px + 1vw);
 }
 
 .front-page_bg-image {
-  background-image: url("../images/front_page_bg-sm.png");
+  background-image: url("../images/../images/front_page_bg-sm.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
