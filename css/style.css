@@ -762,3 +762,55 @@ a.waves-effect, a.waves-light {
     margin-left: 0;
   }
 }
+
+/*helpers*/
+/*Turn on left border at screen size
+  //Solid Border*/
+.border-left {
+  border-left: 1px solid #EAEAEA !important; 
+}
+
+@media screen and (min-width: 576px) {
+  .border-left-sm {
+    border-left: 1px solid #EAEAEA !important; } 
+}
+
+@media screen and (min-width: 768px) {
+  .border-left-md {
+    border-left: 1px solid #EAEAEA !important; } 
+}
+
+@media screen and (min-width: 992px) {
+  .border-left-lg {
+    border-left: 1px solid #EAEAEA !important; } 
+}
+
+@media screen and (min-width: 1200px) {
+  .border-left-xl {
+    border-left: 1px solid #EAEAEA !important; } 
+}
+
+/*Turn off left border at screen size*/
+.border-left-none {
+  border-left: 0 !important; 
+}
+
+@media screen and (min-width: 576px) {
+  .border-left-sm-none {
+    border-left: 0 !important; } 
+}
+
+@media screen and (min-width: 768px) {
+  .border-left-md-none {
+    border-left: 0 !important; } 
+}
+
+@media screen and (min-width: 992px) {
+  .border-left-lg-none {
+    border-left: 0 !important; } 
+}
+
+@media screen and (min-width: 1200px) {
+  .border-left-xl-none {
+    border-left: 0 !important; } 
+}
