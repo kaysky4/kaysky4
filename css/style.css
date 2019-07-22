@@ -372,23 +372,33 @@ font-size: calc(16px + 1vw);
 }
 
 .front-page_bg-image {
+  background-image: url("../images/front_page_bg-sm.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  }
+
+
+@media screen and (min-width: 576px) {
+.front-page_bg-image {
   background-image: url("../images/front_page_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  
+  width: 100%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
-.front-page_bg-image {
+  .front-page_bg-image {
   background-image: url("../images/front_page_bg.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 100%;
   }
 }
-
 
 .front-page_bg {
   background-color: white;
