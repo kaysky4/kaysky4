@@ -14,7 +14,7 @@ navbar
 }
 
 .name-size {
-	 font-size:35px;
+	 font-size:35px;n
 	 vertical-align: middle;
    padding-left: 15px;
 }
@@ -224,6 +224,13 @@ navbar
   opacity: 0;
   width: 0;
 }
+
+.new-text-inside{
+  color: #2E302F;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .tab_menu:hover .old-text {
   height: 0px;
   opacity: 0;
@@ -594,6 +601,7 @@ font-size: calc(12px + 1vw);
 
 .btn-brand:hover {
   background-color: #784546;
+  color: white;
 }
 
 .no-margin {
