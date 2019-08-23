@@ -27,9 +27,20 @@
     <link href="css/style.css" rel="stylesheet">
     <style type="text/css">/* Chart.js */
     @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style>
+    
+    <style>
+      .container-fluid {
+        min-height: 100%;
+      }
+      
+      #col1, #col2, #col3 {
+        margin-botom: -9999px;
+        padding-bottom: 9999px;
+      }
+    </style>
   </head>
   
-  <body class="front-page_bg">
+  <body class="front-page_bg" style="overflow: hidden">
     <div class="container-fluid back">
       <!-- Mobile Navigation Menu -->
         <!-- The overlay -->
@@ -49,14 +60,14 @@
     </div>
       <!-- End of Mobile Navigation Menu -->
     
-    <div class="container-fluid">
-      <div class="row">
-        <div class="d-flex flex-column">
+    <div class="container-fluid px-0">
+      <div class="row px-0">
+        <div class="d-flex flex-column col-lg-12 col-md-12 px-0">
         <!-- Nav Bar -->
         <div class="row">
           <nav class="navbar fixed-top navbar-expand-sm scrolling-navbar mb-0">
 
-            <div class="col-sm-5  col-lg-5 col-md-5 col-9 col-xl-4">
+            <div class="col-sm-5 col-lg-5 col-md-5 col-9 col-xl-4 pl-0">
               <a href="index.html"><img src="images/KW4.png" class="img-responsive brand-thumbnail logo-size" alt="kw logo"></a>
                 <span class="name-size d-sm-none d-md-inline-block">Kristy<span class="brand-color-text"><strong>Winters</strong></span>
                 </span>
@@ -70,7 +81,7 @@
                 <div class="row hamburger_label">menu</div>
             </div>
 
-            <div class="col-5 col-sm-7 col-xl-8">  
+            <div class="hidden col-sm-7 col-xl-8 col-1">  
               <div class="collapse navbar-collapse pull-right subheading p-t-sm " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-none pl-none">
                   <li class="nav-item">
@@ -99,29 +110,52 @@
         <!-- End of Nav Bar -->
 
         <!-- Main Content -->
-        <div class="container-fluid">
-          <div class="flex-row d-block d-sm-flex mt-5 pt-4">
-            <div class="order-first order-sm-last col-12 col-sm-5 col-md-5 pt-5 mt-3 front-page_bg-image">
-              <img class="responsive px-5 px-sm-0 ml-sm-3 ml-md-3 ml-xl-4 mt-sm-2 pt-sm-2 d-flex align-self-center align-self-sm-end" src="images/me6.png" alt="caricature">
+        <div class="container-fluid p-0">
+          <div class="flex-row d-flex flex-wrap">
+            <!--Left-->
+            <div class="col " style="background-color: #C4C1C1;" id="col1"></div>
+            
+            <!--Center-->
+            <div class="col-10 col-sm-10 col-xl-9" id="col2">
+              <div class="row">
+                <div class="jumbo-title col pt-5 mt-5 mx- col-md-12 col-sm-12 col-xl-12 pl-4">UX Designer &amp;&nbsp;<span class="text-nowrap">UI Developer&nbsp;</span><span class="brand-color-text">Portfolio</span>
+                </div>
+                <div class="col mb-5 col-md-12 col-sm-12">
+                  <div class="row mx-sm-0">
+                    <div class="jumbo-text col-12 col-xl-7 col-md-7 col-sm-12 pt-4">
+                      <span style="line-height: 35px;">I am a maker.<br> 
+                      Part designer, developer, and writer; <br>
+                      but mostly someone who gets things done.</span>
+
+                      <div class="d-flex flex-row justify-content-between py-4 mt-md-5 pt-lg-5">
+                        <button class="col-5 btn btn-brand" href="works_ux.html">Works</button>
+                        <button class="col-5 btn btn-brand" href="resume_edu_and_exp.html">Resum&eacute;</button>
+                      </div>
+                    </div>
+                    
+                    <div class="offset-1 col-10 offset-md-0 col-md-5 front-page_bg-image offset-sm-2 col-sm-8">
+                      <img class="responsive ml-2 ml-xl-4 p-5 p-md-4 p-lg-5 d-flex align-self-center align-self-sm-end" src="images/me6.png" alt="caricature">
+                    </div>
+                    
+
+                  </div> 
+                </div>
+              </div>
             </div>
-            <div class="d-flex flex-column mx-3 ml-sm-4 pl-sm-1 order-last order-sm-first mt-1 mb-5 mt-sm-5 py-sm-5">
-               <span class="jumbo-title d-flex flex-wrap">UX Designer &amp;&nbsp;<span class="text-nowrap">UI Developer&nbsp;</span><span class="brand-color-text">Portfolio</span></span>
-              <span class="jumbo-text d-block">
-                <span class="mt-2" style="line-height: 35px;">I am a maker.<br> 
-                Part designer, developer, and writer; <br>
-                but mostly someone who gets things done.</span>
-              </span>
-            </div>
-          </div>  
+            
+            <!--Right-->
+            <div class="col " style="background-color: #C4C1C1" id="col3"></div>
+            
+          </div>
         </div>
         
         <!--End of Content -->   
       
-        <div class="mx-0 px-0 align-item-end">
-          <!-- Copyright -->
-          <span class="footer-copyright text-center">© 2018 Copyright: K. Winters</span>
-        </div> 
-      </div>
+          <div class="col align-item-end">
+            <!-- Copyright -->
+            <span class="footer-copyright text-center">© 2018 Copyright: K. Winters</span>
+          </div> 
+        </div>
       </div>
     </div>
   <!-- SCRIPTS -->

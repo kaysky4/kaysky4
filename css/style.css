@@ -356,13 +356,13 @@ navbar
 }
 
 .jumbo-title {
-font-size: calc(16px + 3vw);
-  font-weight: 100;
+font-size: calc(14px + 3vw);
+  font-weight: 300;
 }
   
 .jumbo-text {
-font-size: calc(16px + 1vw);
-  font-weight: 100;
+font-size: calc(12px + 1vw);
+  font-weight: 300;
 }
 
 .brand-background {
@@ -373,13 +373,13 @@ font-size: calc(16px + 1vw);
 
 .front-page_bg-image {
   background-image: url("../images/../images/front_page_bg-sm.png");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   }
 
 
+/*
 @media screen and (min-width: 576px) {
 .front-page_bg-image {
   background-image: url("../images/front_page_bg.png");
@@ -389,10 +389,11 @@ font-size: calc(16px + 1vw);
   width: 100%;
   }
 }
+*/
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .front-page_bg-image {
-  background-image: url("../images/front_page_bg.png");
+  background-image: url("../images/front_page_bg-sm.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -400,42 +401,56 @@ font-size: calc(16px + 1vw);
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .front-page_bg-image {
+  background-image: url("../images/front_page_bg-sm.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  }
+}
+
+/*
 .front-page_bg {
   background-color: white;
   height: 100%;
   }
+*/
 
+/*
 @media screen and (min-width: 576px) {
   .front-page_bg {
-    background: -webkit-linear-gradient(right, #e91e63 43%, #ffffff 43%);
-    background: -o-linear-gradient(right, #e91e63 43%, #ffffff 43%);
-    background: linear-gradient(to left, #e91e63 43%, #ffffff 43%);
+    background: -webkit-linear-gradient(right, #ffffff 35%, #C4C1C1 35%);
+    background: -o-linear-gradient(right, #ffffff 35%, #C4C1C1 35%);
+    background: linear-gradient(to left, #ffffff 35%, #C4C1C1 35%);
   }
 }
 
 @media screen and (min-width: 768px) {
   .front-page_bg {
-    background: -webkit-linear-gradient(right, #e91e63 43%, #ffffff 43%);
-    background: -o-linear-gradient(right, #e91e63 43%, #ffffff 43%);
-    background: linear-gradient(to left, #e91e63 43%, #ffffff 43%);
+    background: -webkit-linear-gradient(right, #ffffff 37%, #C4C1C1 37%);
+    background: -o-linear-gradient(right, #ffffff 37%, #C4C1C1 37%);
+    background: linear-gradient(to left, #ffffff 37%, #C4C1C1 37%);
   }
 }
 
 @media screen and (min-width: 992px) {
   .front-page_bg {
-    background: -webkit-linear-gradient(right, #e91e63 43%, #ffffff 43%);
-    background: -o-linear-gradient(right, #e91e63 43%, #ffffff 43%);
-    background: linear-gradient(to left, #e91e63 43%, #ffffff 43%);
+    background: -webkit-linear-gradient(right, #C4C1C1 30%, #ffffff 30%);
+    background: -o-linear-gradient(right, #C4C1C1 30%, #ffffff 30%);
+    background: linear-gradient(to left, #C4C1C1 30%, #ffffff 30%);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .front-page_bg {
-    background: -webkit-linear-gradient(right, #e91e63 42%, #ffffff 42%);
-    background: -o-linear-gradient(right, #e91e63 42%, #ffffff 42%);
-    background: linear-gradient(to left, #e91e63 42%, #ffffff 42%);
+    background: -webkit-linear-gradient(right, #C4C1C1 42%, #ffffff 42%);
+    background: -o-linear-gradient(right, #C4C1C1 42%, #ffffff 42%);
+    background: linear-gradient(to left, #C4C1C1 42%, #ffffff 42%);
   }
 }
+*/
   
 .brand-thumbnail {
     padding: .25rem;
@@ -570,6 +585,15 @@ font-size: calc(16px + 1vw);
   background-color: rgba(255,255,255,.1);
   text-decoration: none;
   color: #e91e63;
+}
+
+.btn-brand {
+  background-color: #2E302F;
+  color: #ffffff;
+}
+
+.btn-brand:hover {
+  background-color: #784546;
 }
 
 .no-margin {
