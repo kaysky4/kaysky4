@@ -143,7 +143,7 @@ navbar
 
 .dropdown-item.hover, .dropdown-item:hover {
   text-decoration: none;
-  background-color: #fefafb;
+  background-color: #fce3eb;
 }
 
 .sidenav-mobile {
@@ -179,7 +179,7 @@ navbar
 .tab_menu {
 	width: 55px;
 	height: 55px;
-	background:#E5CBCB;
+	background: #fefafb;
 	border: 1px solid #888888;
 	transition: width 2s;
 	box-shadow: 2px 2px 5px #888888;
