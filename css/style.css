@@ -179,7 +179,7 @@ navbar
 .tab_menu {
 	width: 55px;
 	height: 55px;
-	background: #fefafb;
+	background: #E3DADA;
 	border: 1px solid #888888;
 	transition: width 2s;
 	box-shadow: 2px 2px 5px #888888;
@@ -189,7 +189,7 @@ navbar
   position: relative;
   z-index: 1;
   left: 0;
-  top: 30px;
+  top: 5px;
   padding-top: 10px;
 }
 
